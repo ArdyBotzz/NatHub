@@ -1,5 +1,5 @@
--- Fish It Game Data v5247
--- Generated at 28/08/25
+-- Fish It Game Data
+-- Generated at 28/08/25 (v5247)
 
 -- 143 Total Fishes
 -- 48 Total Rods
