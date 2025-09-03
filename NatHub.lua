@@ -48,6 +48,10 @@ local _function = {
         return (load or loadstring)(game_url)()
     end
 }
+local keyless_script = {
+    "65c66a87b33565a9dea1a54b798b6b2a",
+    "c76b60f068204916e984f1c8ff73e435"
+}
 local script_id, game_name = _function.getid(), _function.gamename()
 if script_id then
     game.StarterGui:SetCore(
@@ -59,7 +63,7 @@ if script_id then
             Duration = 5
         }
     )
-    if not premium and (script_id ~= "65c66a87b33565a9dea1a54b798b6b2a" or script_id ~= "c76b60f068204916e984f1c8ff73e435") then
+    if not premium and not table.find(keyless_script, script_id) then
         local auth = _function.load("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/keysystem.lua")
         local auth_status = auth(script_id)
         repeat task.wait() until auth_status.validated
