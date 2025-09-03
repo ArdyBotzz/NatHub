@@ -50,7 +50,8 @@ local _function = {
 }
 local keyless_script = {
     "65c66a87b33565a9dea1a54b798b6b2a",
-    "c76b60f068204916e984f1c8ff73e435"
+    "c76b60f068204916e984f1c8ff73e435",
+    "378a78843196b1ded89499cbbf6e4bf9"
 }
 local script_id, game_name = _function.getid(), _function.gamename()
 if script_id then
