@@ -13,6 +13,7 @@ local _function = {
             elseif g == 6331902150 then return "0771107275ffabca9221c264306214f9" -- Forsaken
             elseif g == 7709344486 then return "4039bc61ee76ab6f5247b15a0ebf5f60" -- Steal a Brainrot
             elseif g == 6701277882 then return "4db8af335f02d1d7cedc5ce064566090" -- Fish It
+            elseif g == 7750955984 then return "20b0289a30ff29dc10488afae2ba0479" -- Hunty Zombie
             elseif g == 7326934954 then return "936bc2bb715727ee86ba41e64a851f3d" end -- 99 Night In The Forest
         else
             if g == 7436755782 then return "65c66a87b33565a9dea1a54b798b6b2a" -- Grow a Garden
@@ -25,6 +26,7 @@ local _function = {
             elseif g == 6331902150 then return "811768c852543782f63839177a263d53" -- Forsaken 
             elseif g == 7709344486 then return "36bb351f4d722c58af15efcb417b67da" -- Steal a Brainrot
             elseif g == 6701277882 then return "378a78843196b1ded89499cbbf6e4bf9" -- Fish It
+            elseif g == 7750955984 then return "3e8b8150efb71ad27504e3efbadd5f8a" -- Hunty Zombie
             elseif g == 7326934954 then return "c76b60f068204916e984f1c8ff73e435" end -- 99 Night In The Forest
         end
     end,
@@ -40,6 +42,7 @@ local _function = {
         elseif g == 6331902150 then return "Forsaken"
         elseif g == 7709344486 then return "Steal a Brainrot"
         elseif g == 6701277882 then return "Fish It"
+        elseif g == 7750955984 then return "Hunty Zombie" 
         elseif g == 7326934954 then return "99 Night in The Forest"
         end
     end,
